@@ -18,11 +18,11 @@ export BASH_IT_THEME='bobby'
 export GIT_HOSTING='git@git.domain.com'
 
 # Set my editor and git editor
-export EDITOR="/usr/bin/mate -w"
-export GIT_EDITOR='/usr/bin/mate -w'
+export EDITOR="/usr/bin/vim"
+export GIT_EDITOR='/usr/bin/vim'
 
 # Set the path nginx
-export NGINX_PATH='/opt/nginx'
+#export NGINX_PATH='/opt/nginx'
 
 # Don't check mail when opening terminal.
 unset MAILCHECK

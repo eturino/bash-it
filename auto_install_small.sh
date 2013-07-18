@@ -21,7 +21,7 @@ function load_small() {
 
   for name in "${argAry2[@]}"
   do
-    src="${name}.aliases.bash"
+    src="$BASH_IT/$file_type/available/${name}.aliases.bash"
     filename="$(basename ${src})"
     [ ${filename:0:1} = "_" ] && continue
       dest="${BASH_IT}/${file_type}/enabled/${filename}"

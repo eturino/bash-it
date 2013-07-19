@@ -1,3 +1,19 @@
+# EtuDev's Bash it
+
+**Bash it** modification for etudev rails server environment
+
+## modifications
+
+1. `export PATH=./bin:$PATH` in bash_profile, instead of `export PATH=$PATH:~/.gem/ruby/1.8/bin:/opt/nginx/sbin`
+2. auto_install_small.sh (see bellow)
+
+
+## Install (Auto Small //eturino)
+1. Check a clone of this repo: `git clone http://github.com/revans/bash-it.git ~/.bash_it`
+2. Run `~/.bash_it/auto_install_small.sh /home/folder` (it automatically backs up your `~/.bash_profile`, if you do not supply a home folder param it will use $HOME)
+3. Edit your `~/.bash_profile` file in order to customize bash-it.
+
+
 # Bash it
 
 **Bash it** is a mash up of my own bash commands and scripts, other bash stuff I have found.
@@ -5,11 +21,6 @@
 (And a shameless ripoff of [oh-my-zsh](https://github.com/robbyrussell/oh-my-zsh). :)
 
 Includes autocompletion, themes, aliases, custom functions, a few stolen pieces from Steve Losh, and more.
-
-## Install (Auto Small //eturino)
-1. Check a clone of this repo: `git clone http://github.com/revans/bash-it.git ~/.bash_it`
-2. Run `~/.bash_it/auto_install_small.sh /home/folder` (it automatically backs up your `~/.bash_profile`, if you do not supply a home folder param it will use $HOME)
-3. Edit your `~/.bash_profile` file in order to customize bash-it.
 
 ## Install
 

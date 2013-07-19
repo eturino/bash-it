@@ -7,6 +7,9 @@
 # Add rvm gems and nginx to the path
 #export PATH=$PATH:~/.gem/ruby/1.8/bin:/opt/nginx/sbin
 
+# eturino: first try to use local bin (for rails apps)
+export PATH=./bin:$PATH
+
 # Path to the bash it configuration
 export BASH_IT=$HOME/.bash_it
 

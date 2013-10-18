@@ -8,3 +8,6 @@ lib/custom.bash
 plugins/custom.plugins.bash
 *.swp
 .*.un~
+
+.git_revision
+.installed_revision
